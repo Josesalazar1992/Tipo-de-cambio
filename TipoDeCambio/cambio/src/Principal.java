@@ -43,8 +43,8 @@ public class Principal {
                 menu.monto = scanner.nextDouble();
                 menu.target = "CRC";
             }else{
-                System.out.println("El programa se ha cerrado");
-                break;
+                System.out.println("Ingrese una opcion valida " + "\n" + "*************************");
+                continue;
             }
 
             HttpClient client = HttpClient.newHttpClient();
